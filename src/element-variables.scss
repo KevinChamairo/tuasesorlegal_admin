@@ -1,0 +1,34 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+html, body, #app, #app > .el-container {
+  height: 100%;
+  color: #0c1937;
+  font-weight: 500;
+}
+.el-card {
+  color: #0c1937 !important;
+}
+.el-textarea__inner:focus, .el-select .el-input__inner:focus {
+  border-color: #715ED9 !important;
+}
+.el-form--label-top .el-form-item__label {
+  padding: 0px;
+  line-height: 20px;
+}
+$--color-primary:#2ADBB8;
+$--color-info:#715ED9;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+// .el-input__inner {
+//   background: #E0E0E0;
+//   padding-top: 1rem;
+//   padding-bottom: 1rem;
+// }
+
